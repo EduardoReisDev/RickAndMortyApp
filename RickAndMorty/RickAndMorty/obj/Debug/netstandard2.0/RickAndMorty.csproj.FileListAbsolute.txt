@@ -1,0 +1,15 @@
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/bin/Debug/netstandard2.0/RickAndMorty.deps.json
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/bin/Debug/netstandard2.0/RickAndMorty.dll
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/bin/Debug/netstandard2.0/ref/RickAndMorty.dll
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/bin/Debug/netstandard2.0/RickAndMorty.pdb
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/RickAndMorty.csproj.AssemblyReference.cache
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/RickAndMorty.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/RickAndMorty.AssemblyInfoInputs.cache
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/RickAndMorty.AssemblyInfo.cs
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/RickAndMorty.csproj.CoreCompileInputs.cache
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/RickAndMorty.dll
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/ref/RickAndMorty.dll
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/RickAndMorty.pdb

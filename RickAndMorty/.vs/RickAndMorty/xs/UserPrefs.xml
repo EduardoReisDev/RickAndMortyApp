@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{F6E7072B-78B2-4DE2-9B3C-73511D4F0D47}|Default">
+  <MonoDevelop.Ide.ItemProperties.RickAndMorty.Android PreferredExecutionTarget="Android.Pixel_2_API_32" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RickAndMorty" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RickAndMorty.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9A16C396-578C-491D-B007-01C48C9B699D" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

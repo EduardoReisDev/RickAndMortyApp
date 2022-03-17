@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "FrQdK4c71eTxT3DdBAFwu1CKdlm96XRMWH91uUdUwpt2uZ339XUtQqfo6JXePltYwFcbu/duvvDlH4yv0XJ0HA==",
+  "success": true,
+  "projectFilePath": "/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty.iOS/RickAndMorty.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/eduardoreis/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
