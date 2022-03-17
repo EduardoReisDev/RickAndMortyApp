@@ -1,12 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "furQXg7x+m8BJoJtpxAJ67Ys4bJ+r628kKesYwRgLN9tsUZJZ+lgTFQLNm+QXu3keyM8vExSJSNz4k22edULyA==",
+  "dgSpecHash": "AMOCv/jz/7pNrpe1iVi7D8jbg74ZjPCS9zc8wZGOPtvHkm48p8oE0awgyU7lMjukRAnebqWpBt/XJAzJVcMzJA==",
   "success": true,
   "projectFilePath": "/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/RickAndMorty.csproj",
   "expectedPackageFiles": [
+    "/Users/eduardoreis/.nuget/packages/graphql.client/4.0.2/graphql.client.4.0.2.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/graphql.client.abstractions/4.0.2/graphql.client.abstractions.4.0.2.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/graphql.client.abstractions.websocket/4.0.2/graphql.client.abstractions.websocket.4.0.2.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/graphql.primitives/4.0.2/graphql.primitives.4.0.2.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.reactive/4.3.2/system.reactive.4.3.2.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.threading.tasks.extensions/4.5.3/system.threading.tasks.extensions.4.5.3.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
