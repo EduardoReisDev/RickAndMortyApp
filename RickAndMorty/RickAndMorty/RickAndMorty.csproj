@@ -19,5 +19,9 @@
   <ItemGroup>
     <None Remove="GraphQL.Client" />
     <None Remove="GraphQL.Client.Serializer.Newtonsoft" />
+    <None Remove="Constants\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Constants\" />
   </ItemGroup>
 </Project>
