@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.RickAndMorty.Android PreferredExecutionTarget="Android.Pixel_2_API_32" />
   <MonoDevelop.Ide.Workbench ActiveDocument="RickAndMorty/Constants/APIEndpoints.cs">
     <Files>
-      <File FileName="RickAndMorty/Constants/APIEndpoints.cs" Line="1" Column="1" />
+      <File FileName="RickAndMorty/Constants/APIEndpoints.cs" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +18,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.RickAndMorty.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A938531A-9C80-420E-A15E-5592EBDF8C69" />
+  <MonoDevelop.Ide.ItemProperties.RickAndMorty.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.570966BA-4D27-4154-A798-CFCA9B1A8B76" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -97,6 +97,10 @@
               "target": "Package",
               "version": "[4.0.2, )"
             },
+            "GraphQL.Client.Serializer.Newtonsoft": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
