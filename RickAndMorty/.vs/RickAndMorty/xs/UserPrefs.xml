@@ -1,13 +1,12 @@
 ﻿<Properties StartupConfiguration="{D1C5D3D3-7DD0-4C39-9137-4686D0110B44}|Default">
   <MonoDevelop.Ide.ItemProperties.RickAndMorty.Android PreferredExecutionTarget="Android.Pixel_2_API_32" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RickAndMorty.iOS/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RickAndMorty/MainPage.xaml.cs">
     <Files>
-      <File FileName="RickAndMorty/Constants/APIEndpoints.cs" Line="3" Column="2" />
+      <File FileName="RickAndMorty/Constants/APIEndpoints.cs" Line="9" Column="1" />
       <File FileName="RickAndMorty/Models/Character.cs" Line="8" Column="43" />
       <File FileName="RickAndMorty/Models/Location.cs" Line="7" Column="41" />
       <File FileName="RickAndMorty/App.xaml.cs" Line="14" Column="1" />
-      <File FileName="RickAndMorty/MainPage.xaml.cs" Line="23" Column="1" />
-      <File FileName="RickAndMorty.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="RickAndMorty/MainPage.xaml.cs" Line="27" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,11 +16,11 @@
               <Node name="Constants" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="RickAndMorty.iOS" expanded="True">
-              <Node name="Main.cs" selected="True" />
-            </Node>
+            <Node name="RickAndMorty.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -31,9 +30,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/MainPage.xaml.cs" relfile="RickAndMorty/MainPage.xaml.cs" line="26" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
