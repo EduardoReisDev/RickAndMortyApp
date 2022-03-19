@@ -5,7 +5,6 @@
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.1/RickAndMorty.csproj.AssemblyReference.cache
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.1/RickAndMorty.GeneratedMSBuildEditorConfig.editorconfig
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.1/App.xaml.g.cs
-/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.1/MainPage.xaml.g.cs
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.1/Views/CharacterPage.xaml.g.cs
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.1/Views/DashboardPage.xaml.g.cs
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.1/Views/LocationPage.xaml.g.cs

@@ -1,6 +1,5 @@
-﻿using System;
+﻿using RickAndMorty.Views;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace RickAndMorty
 {
@@ -10,7 +9,7 @@ namespace RickAndMorty
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage( new DashboardPage());
         }
 
         protected override void OnStart()
