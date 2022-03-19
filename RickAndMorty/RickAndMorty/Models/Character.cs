@@ -30,5 +30,30 @@ namespace RickAndMorty.Models
 
         [JsonProperty("image")]
         public string Image { get; set; }
+
+        public string StatusImage
+        {
+            get
+            {
+                string imageName = string.Empty;
+
+                switch (Status)
+                {
+                    case "Alive":
+                        imageName = "alive.png";
+                        break;
+
+                    case "unknown":
+                        imageName = "unknown.png";
+                        break;
+
+                    case "Dead":
+                        imageName = "dead.png";
+                        break;
+                }
+
+                return imageName;
+            }
+        }
     }
 }

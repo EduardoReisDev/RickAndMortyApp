@@ -1,9 +1,88 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<ContentPage
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="RickAndMorty.Views.LocationPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RickAndMorty.Views.LocationPage"
+             BackgroundColor="#212529"
+             Title="Locations">
+
     <ContentPage.Content>
-        
+        <ListView ItemsSource="{Binding LocationsList}"
+                  BackgroundColor="#212529"
+                  HasUnevenRows="true"
+                  SeparatorVisibility="None"
+                  SelectionMode="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame Padding="0"
+                               HasShadow="False"
+                               CornerRadius="8"
+                               Margin="16,0,16,16"
+                               IsClippedToBounds="True"
+                               BackgroundColor="#495057">
+                            <Grid RowSpacing="0"
+                                  Padding="12">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Label Text="{Binding Name}"
+                                       TextColor="#DEE2E6"
+                                       FontAttributes="Bold"
+                                       FontSize="20"
+                                       Grid.Row="0"/>
+                                <Label Text="Type:"
+                                       TextColor="#6C757D"
+                                       FontSize="16"
+                                       Margin="0,6,0,0"
+                                       Grid.Row="1"/>
+                                <Label Text="{Binding Type}"
+                                       TextColor="#DEE2E6"
+                                       Grid.Row="2"/>
+                                <Label Text="Dimension:"
+                                       TextColor="#6C757D"
+                                       FontSize="16"
+                                       Margin="0,6,0,0"
+                                       Grid.Row="3"/>
+                                <Label Text="{Binding Dimension}"
+                                       TextColor="#DEE2E6"
+                                       Grid.Row="4"/>
+                                <Label Text="Residents:"
+                                       TextColor="#6C757D"
+                                       FontSize="16"
+                                       Margin="0,6,0,0"
+                                       Grid.Row="5"/>
+                                <CollectionView Grid.Row="6"
+                                                Margin="0,4,0,0"
+                                                HeightRequest="80"
+                                                WidthRequest="80"
+                                                ItemsSource="{Binding Residents}"
+                                                VerticalScrollBarVisibility="Never"
+                                                HorizontalScrollBarVisibility="Never">
+                                    <CollectionView.ItemsLayout>
+                                        <LinearItemsLayout Orientation="Horizontal"
+                                                           ItemSpacing="10"/>
+                                    </CollectionView.ItemsLayout>
+                                    <CollectionView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Frame CornerRadius="8"
+                                                   IsClippedToBounds="True"
+                                                   Padding="0">
+                                                <Image Source="{Binding Image}"/>
+                                            </Frame>
+                                        </DataTemplate>
+                                    </CollectionView.ItemTemplate>
+                                </CollectionView>
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </ContentPage.Content>
 </ContentPage>

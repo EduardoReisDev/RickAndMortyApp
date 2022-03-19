@@ -8,7 +8,6 @@
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.1/Views/CharacterPage.xaml.g.cs
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.1/Views/DashboardPage.xaml.g.cs
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.1/Views/LocationPage.xaml.g.cs
-/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.1/Views/WelcomePage.xaml.g.cs
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.1/RickAndMorty.AssemblyInfoInputs.cache
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.1/RickAndMorty.AssemblyInfo.cs
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.1/RickAndMorty.csproj.CoreCompileInputs.cache

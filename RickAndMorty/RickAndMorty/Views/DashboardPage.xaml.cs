@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using RickAndMorty.ViewModels;
 using Xamarin.Forms;
 
@@ -17,6 +16,11 @@ namespace RickAndMorty.Views
             BindingContext = viewModel;
 
             viewModel.FillCharactersList();
+        }
+
+        private async void GoToLocationPage(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LocationPage());
         }
     }
 }

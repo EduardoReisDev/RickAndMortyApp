@@ -12,14 +12,14 @@ namespace RickAndMorty.Queries
     {
         private GraphQLHttpClient client;
 
-        public async Task<List<Location>> GetAllLocations(int pageNumber)
+        public async Task<List<Location>> GetAllLocations(int pageNumber = 1)
         {
             client = new GraphQLHttpClient(APIEndpoints.RickAndMortyURI, new NewtonsoftJsonSerializer());
 
             GraphQLRequest query = new GraphQLRequest
             {
                 Query = @"query {
-                locations(page: $pageNumber) {
+                locations(page: 1) {
                     results{
                         id,
                         name,
@@ -37,7 +37,7 @@ namespace RickAndMorty.Queries
                     }
                   }
                 }",
-                Variables = pageNumber
+                //Variables = pageNumber
             };
 
             GraphQLResponse<Query> graphQLResponse = await client.SendQueryAsync<Query>(query);

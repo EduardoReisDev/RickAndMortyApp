@@ -133,4 +133,9 @@
       <Name>RickAndMorty</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\alive.png" />
+    <BundleResource Include="Resources\dead.png" />
+    <BundleResource Include="Resources\unknown.png" />
+  </ItemGroup>
 </Project>
