@@ -13,6 +13,7 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="GraphQL.NewtonsoftJson" Version="4.7.1" />
     <PackageReference Include="GraphQL.Client" Version="4.0.2" />
     <PackageReference Include="GraphQL.Client.Serializer.Newtonsoft" Version="4.0.2" />
   </ItemGroup>
@@ -21,9 +22,16 @@
     <None Remove="GraphQL.Client.Serializer.Newtonsoft" />
     <None Remove="Constants\" />
     <None Remove="Models\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Views\" />
+    <None Remove="Queries\" />
+    <None Remove="GraphQL.NewtonsoftJson" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Constants\" />
     <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\" />
+    <Folder Include="Queries\" />
   </ItemGroup>
 </Project>

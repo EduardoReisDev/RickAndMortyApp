@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[4.0.2, )"
             },
+            "GraphQL.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

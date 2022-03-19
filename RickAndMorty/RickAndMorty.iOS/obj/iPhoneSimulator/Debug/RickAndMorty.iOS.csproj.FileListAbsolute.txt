@@ -68,3 +68,8 @@
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.4/_ProcessedBundleResourcesPath.items
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.4/_ProcessedContentPath.items
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.4/optimized/
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty.iOS/bin/iPhoneSimulator/Debug/GraphQL.dll
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty.iOS/bin/iPhoneSimulator/Debug/GraphQL-Parser.dll
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty.iOS/bin/iPhoneSimulator/Debug/GraphQL.NewtonsoftJson.dll
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty.iOS/bin/iPhoneSimulator/Debug/System.Buffers.dll
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll

@@ -10,14 +10,13 @@ using GraphQL.Client.Http;
 using GraphQL.Client.Serializer.Newtonsoft;
 using RickAndMorty.Constants;
 using RickAndMorty.Models;
+using RickAndMorty.Queries;
 using Xamarin.Forms;
 
 namespace RickAndMorty
 {
     public partial class MainPage : ContentPage
     {
-        private GraphQLHttpClient client;
-
         public MainPage()
         {
             InitializeComponent();
@@ -25,38 +24,10 @@ namespace RickAndMorty
             Teste();
         }
 
-        public async void Teste()
+        public void Teste()
         {
-            client = new GraphQLHttpClient(APIEndpoints.RickAndMortyURI, new NewtonsoftJsonSerializer());
-
-            var query = new GraphQLRequest
-            {
-                Query = @"query {
-                  characters(page: 1) {
-                    results {
-                      name,
-                      status,
-  		                species,
-  		                type,
-  		                gender,
-                      image,
-  		                origin{
-                        id,
-  			                name,
-  		                  type,
-                      }
-  		                location{
-                        id,
-  			                name,
-  		                  type,
-                      }
-                    }
-                  }
-                }"
-            };
-
-            var response = await client.SendQueryAsync<Types.Query>(query);
-            Console.WriteLine(response.Data);
+            CharactersQuery query = new CharactersQuery();
+            query.GetAllCharactersAsync();
         }
     }
 }
