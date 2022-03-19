@@ -1,5 +1,4 @@
-﻿using System;
-namespace RickAndMorty.Constants
+﻿namespace RickAndMorty.Constants
 {
     public static class APIEndpoints
     {
