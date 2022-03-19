@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "g5Hch6KSl8IMkExjD6xUuE7zS+5Btm0ZJIEDRpNd3sP7fcm0VrPEKZruvlW7hAl7upisX+o93/Mtby23R7sbzQ==",
+  "dgSpecHash": "s7mISprrinPgKQ6x1m0FsMU7knGFkYQTM9bRTH50t5lM8/iwEkZLC7tKC22zu0Rxyn+FIpn82X/kE1P6Q6U7Jw==",
   "success": true,
   "projectFilePath": "/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/RickAndMorty.csproj",
   "expectedPackageFiles": [
@@ -15,11 +15,9 @@
     "/Users/eduardoreis/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "/Users/eduardoreis/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "/Users/eduardoreis/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/system.reactive/4.3.2/system.reactive.4.3.2.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",

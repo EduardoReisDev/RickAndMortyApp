@@ -17,7 +17,7 @@
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
---reference=/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/bin/Debug/netstandard2.0/RickAndMorty.dll
+--reference=/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/bin/Debug/netstandard2.1/RickAndMorty.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Drawing.Common.dll
@@ -217,4 +217,4 @@
 --reference=/Users/eduardoreis/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 --reference=/Users/eduardoreis/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 --reference=/Users/eduardoreis/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
---reference=/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/bin/Debug/netstandard2.0/RickAndMorty.dll
+--reference=/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/bin/Debug/netstandard2.1/RickAndMorty.dll

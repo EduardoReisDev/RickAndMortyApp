@@ -22,7 +22,7 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.6.0.3/lib/mono/Xamarin.iOS/System.Web.Services.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.6.0.3/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
 /Users/eduardoreis/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
-/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/bin/Debug/netstandard2.0/RickAndMorty.dll
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/bin/Debug/netstandard2.1/RickAndMorty.dll
 /Users/eduardoreis/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/eduardoreis/.nuget/packages/graphql.client/4.0.2/lib/netstandard2.0/GraphQL.Client.dll
 /Users/eduardoreis/.nuget/packages/graphql.client.abstractions/4.0.2/lib/netstandard2.0/GraphQL.Client.Abstractions.dll

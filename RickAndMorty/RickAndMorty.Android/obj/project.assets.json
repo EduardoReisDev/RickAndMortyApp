@@ -1150,7 +1150,7 @@
       },
       "RickAndMorty/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "GraphQL.Client": "4.0.2",
           "GraphQL.Client.Serializer.Newtonsoft": "4.0.2",
