@@ -7,10 +7,11 @@
 
     <ContentPage.Content>
         <ListView ItemsSource="{Binding CharactersList}"
+                  ItemTapped="CharacterItemTapped"
                   BackgroundColor="#212529"
                   HasUnevenRows="true"
                   SeparatorVisibility="None"
-                  SelectionMode="None">
+                  SelectionMode="Single">
             <ListView.Header>
                 <StackLayout>
                     <Label Text="Welcolme a Rick and Morty app"
@@ -44,7 +45,7 @@
                 <DataTemplate>
                     <ViewCell>
                         <Frame Padding="0"
-                               HasShadow="False"
+                               HasShadow="True"
                                CornerRadius="8"
                                Margin="16,0,16,16"
                                IsClippedToBounds="True"

@@ -1,13 +1,8 @@
 ﻿<Properties StartupConfiguration="{D1C5D3D3-7DD0-4C39-9137-4686D0110B44}|Default">
   <MonoDevelop.Ide.ItemProperties.RickAndMorty.Android PreferredExecutionTarget="Android.Pixel_2_API_32" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RickAndMorty/Views/LocationPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RickAndMorty/Views/CharacterPage.xaml.cs">
     <Files>
-      <File FileName="RickAndMorty/Views/LocationPage.xaml" Line="48" Column="53" NotebookId="1" />
-      <File FileName="RickAndMorty/Views/LocationPage.xaml.cs" Line="11" Column="10" NotebookId="1" />
-      <File FileName="RickAndMorty/ViewModels/LocationPageViewModel.cs" Line="9" Column="60" NotebookId="1" />
-      <File FileName="RickAndMorty/Queries/LocationsQuery.cs" Line="22" Column="37" NotebookId="1" />
-      <File FileName="RickAndMorty/Models/Locations.cs" Line="12" Column="25" NotebookId="1" />
-      <File FileName="RickAndMorty/Models/Location.cs" Line="21" Column="41" NotebookId="1" />
+      <File FileName="RickAndMorty/Views/CharacterPage.xaml.cs" Line="16" Column="39" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,11 +14,11 @@
               <Node name="Queries" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="DashboardPage.xaml" expanded="True" />
-                <Node name="LocationPage.xaml" expanded="True" selected="True" />
+                <Node name="CharacterPage.xaml" expanded="True">
+                  <Node name="CharacterPage.xaml.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
-            <Node name="RickAndMorty.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

@@ -15,7 +15,7 @@
                 <DataTemplate>
                     <ViewCell>
                         <Frame Padding="0"
-                               HasShadow="False"
+                               HasShadow="True"
                                CornerRadius="8"
                                Margin="16,0,16,16"
                                IsClippedToBounds="True"
@@ -61,6 +61,7 @@
                                                 Margin="0,4,0,0"
                                                 HeightRequest="80"
                                                 WidthRequest="80"
+                                                SelectionMode="None"
                                                 ItemsSource="{Binding Residents}"
                                                 VerticalScrollBarVisibility="Never"
                                                 HorizontalScrollBarVisibility="Never">

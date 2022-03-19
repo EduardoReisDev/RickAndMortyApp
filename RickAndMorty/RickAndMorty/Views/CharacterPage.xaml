@@ -1,9 +1,87 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<ContentPage
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="RickAndMorty.Views.CharacterPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RickAndMorty.Views.CharacterPage"
+             BackgroundColor="#212529">
+
     <ContentPage.Content>
-        
+        <Grid RowSpacing="0"
+              Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Frame Grid.Row="0"
+                   Padding="0"
+                   CornerRadius="50"
+                   IsClippedToBounds="True"
+                   HorizontalOptions="Center">
+                <Image x:Name="CharacterImage"
+                       HorizontalOptions="Center"/>
+            </Frame>
+            <Label x:Name="CharacterName"
+                   Margin="0,12,0,0"
+                   FontSize="22"
+                   TextColor="#DEE2E6"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   Grid.Row="1"/>
+            <Label Text="Status"
+                    TextColor="#6C757D"
+                    FontSize="16"
+                    Margin="0,10,0,0"
+                    Grid.Row="2"/>
+            <StackLayout Orientation="Horizontal"
+                            Grid.Row="3">
+                <Image x:Name="CharacterStatusImage"
+                        WidthRequest="10"
+                        VerticalOptions="CenterAndExpand"/>
+                <Label x:Name="CharacterStatus"
+                        TextColor="#DEE2E6"
+                        FontSize="16"/>
+            </StackLayout>
+            <Label Text="Specie"
+                    TextColor="#6C757D"
+                    FontSize="16"
+                    Margin="0,10,0,0"
+                    Grid.Row="4"/>
+            <Label x:Name="CharacterSpecie"
+                    TextColor="#DEE2E6"
+                    FontSize="16"
+                    Grid.Row="5"/>
+            <Label Text="Gender"
+                    TextColor="#6C757D"
+                    FontSize="16"
+                    Margin="0,10,0,0"
+                    Grid.Row="6"/>
+            <Label x:Name="CharacterGender"
+                    TextColor="#DEE2E6"
+                    Grid.Row="7"/>
+            <Label Text="Last known location"
+                    TextColor="#6C757D"
+                    FontSize="16"
+                    Margin="0,10,0,0"
+                    Grid.Row="8"/>
+            <Label x:Name="CharacterLocation"
+                    TextColor="#DEE2E6"
+                    Grid.Row="9"/>
+            <Label Text="First seen in"
+                    TextColor="#6C757D"
+                    FontSize="16"
+                    Margin="0,10,0,0"
+                    Grid.Row="10"/>
+            <Label x:Name="CharacterOrigin"
+                    TextColor="#DEE2E6"
+                    Grid.Row="11"/>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
