@@ -11,12 +11,13 @@ namespace RickAndMorty.ViewModels
 
         public DashboardPageViewModel()
         {
-            CharactersList = new ObservableCollection<Character>();
+            
         }
 
         public async void FillCharactersList()
         {
             CharactersQuery query = new CharactersQuery();
+            CharactersList = new ObservableCollection<Character>();
 
             foreach (Character character in await query.GetAllCharacters())
             {

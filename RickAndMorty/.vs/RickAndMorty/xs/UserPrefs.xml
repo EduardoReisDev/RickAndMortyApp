@@ -2,11 +2,11 @@
   <MonoDevelop.Ide.ItemProperties.RickAndMorty.Android PreferredExecutionTarget="Android.Pixel_2_API_32" />
   <MonoDevelop.Ide.Workbench ActiveDocument="RickAndMorty/Views/DashboardPage.xaml">
     <Files>
-      <File FileName="RickAndMorty/Views/DashboardPage.xaml" Line="30" Column="32" />
+      <File FileName="RickAndMorty/Views/DashboardPage.xaml" Line="23" Column="51" />
       <File FileName="RickAndMorty/Views/DashboardPage.xaml.cs" Line="19" Column="44" />
-      <File FileName="RickAndMorty/ViewModels/DashboardPageViewModel.cs" Line="24" Column="14" />
+      <File FileName="RickAndMorty/ViewModels/DashboardPageViewModel.cs" Line="26" Column="1" />
       <File FileName="RickAndMorty.iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="RickAndMorty/Models/Character.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="RickAndMorty/Queries/CharactersQuery.cs" Line="54" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -30,7 +30,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/ViewModels/DashboardPageViewModel.cs" relfile="RickAndMorty/ViewModels/DashboardPageViewModel.cs" line="26" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

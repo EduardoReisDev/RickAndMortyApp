@@ -2,18 +2,24 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RickAndMorty.Views.DashboardPage"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Black">
 
     <ContentPage.Content>
         <ListView ItemsSource="{Binding CharactersList}"
                   HasUnevenRows="true"
+                  SeparatorVisibility="None"
                   SelectionMode="None">
+            <ListView.Header>
+                <Label Text="Characters"/>
+            </ListView.Header>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid Margin="0,0,0,16">
+                        <Grid Margin="0,0,0,16"
+                              BackgroundColor="White">
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="140"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
@@ -22,9 +28,11 @@
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
                             <Image Source="{Binding Image}"
-                                   Grid.RowSpan="5"
+                                   Grid.RowSpan="6"
+                                   Aspect="AspectFill"
                                    Grid.Column="0"/>
                             <Label Text="{Binding Name}"
                                    Grid.Row="0"
@@ -40,6 +48,9 @@
                                    Grid.Column="1"/>
                             <Label Text="{Binding Gender}"
                                    Grid.Row="4"
+                                   Grid.Column="1"/>
+                            <Label Text="{Binding Location.Name}"
+                                   Grid.Row="5"
                                    Grid.Column="1"/>
                         </Grid>
                     </ViewCell>
