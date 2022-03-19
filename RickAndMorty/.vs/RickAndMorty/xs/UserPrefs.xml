@@ -5,13 +5,13 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RickAndMorty" expanded="True">
-            <Node name="RickAndMorty" expanded="True" />
+            <Node name="RickAndMorty" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.RickAndMorty.iOS Xamarin.HotReload.DebuggerTimeoutException.RickAndMorty.iOS.HideInfoBar="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0BE45C74-27BB-430F-BDBD-2FF4E9DF5436" />
+  <MonoDevelop.Ide.ItemProperties.RickAndMorty.iOS Xamarin.HotReload.DebuggerTimeoutException.RickAndMorty.iOS.HideInfoBar="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.728153D9-9227-4327-8227-0CF1CFB67394" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

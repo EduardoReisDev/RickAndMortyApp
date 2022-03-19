@@ -13,3 +13,7 @@
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/RickAndMorty.dll
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/ref/RickAndMorty.dll
 /Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/RickAndMorty.pdb
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/Views/CharacterPage.xaml.g.cs
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/Views/DashboardPage.xaml.g.cs
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/Views/LocationPage.xaml.g.cs
+/Users/eduardoreis/Projects/RickAndMortyApp/RickAndMorty/RickAndMorty/obj/Debug/netstandard2.0/Views/WelcomePage.xaml.g.cs
