@@ -3,6 +3,6 @@ namespace RickAndMorty.Constants
 {
     public static class APIEndpoints
     {
-        public static string GraphQLUri = "https://rickandmortyapi.com/graphql";
+        public static string RickAndMortyURI = "https://rickandmortyapi.com/graphql";
     }
 }
