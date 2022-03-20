@@ -1,9 +1,6 @@
 ﻿<Properties StartupConfiguration="{D1C5D3D3-7DD0-4C39-9137-4686D0110B44}|Default">
   <MonoDevelop.Ide.ItemProperties.RickAndMorty.Android PreferredExecutionTarget="Android.Pixel_2_API_32" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RickAndMorty/Views/CharacterPage.xaml.cs">
-    <Files>
-      <File FileName="RickAndMorty/Views/CharacterPage.xaml.cs" Line="16" Column="39" NotebookId="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -11,12 +8,12 @@
             <Node name="RickAndMorty" expanded="True">
               <Node name="Constants" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Queries" expanded="True" />
+              <Node name="Queries" expanded="True">
+                <Node name="CharactersQuery.cs" selected="True" />
+              </Node>
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="CharacterPage.xaml" expanded="True">
-                  <Node name="CharacterPage.xaml.cs" selected="True" />
-                </Node>
+                <Node name="DashboardPage.xaml" expanded="True" />
               </Node>
             </Node>
           </Node>

@@ -16,28 +16,33 @@ namespace RickAndMorty.Queries
         {
             client = new GraphQLHttpClient(APIEndpoints.RickAndMortyURI, new NewtonsoftJsonSerializer());
 
-            GraphQLRequest query = new GraphQLRequest
+            GraphQLRequest query = new()
             {
-                Query = @"query {
-                locations(page: 1) {
-                    results{
-                        id,
-                        name,
-                        type,
-      	                dimension,
-      	                residents{
+                OperationName = "GetAllLocations",
+                Variables = new { number = pageNumber },
+                Query = @"query GetAllLocations($number: Int)
+                {
+                    locations(page: $number)
+                    {
+                        results
+                        {
                             id,
                             name,
-                            status,
-                            species,
                             type,
-                            gender,
-                            image,
-                      }
-                    }
-                  }
-                }",
-                //Variables = pageNumber
+                            dimension,
+                            residents
+                            {
+                                id,
+                                name,
+                                status,
+                                species,
+                                type,
+                                gender,
+                                image,
+                            }
+                         }
+                     }
+                }"
             };
 
             GraphQLResponse<Query> graphQLResponse = await client.SendQueryAsync<Query>(query);
