@@ -16,7 +16,7 @@ Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) consumindo API GraphQL.
 
 ## API
 #### Endpoint
-- https://rickandmortyapi.com/documentation/#introduction
+- https://rickandmortyapi.com/graphql
 
 #### Queries
 ```
