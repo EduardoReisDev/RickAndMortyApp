@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.1/": {
       "RickAndMorty/1.0.0": {
         "dependencies": {
+          "Acr.UserDialogs": "7.2.0.562",
           "GraphQL.Client": "4.0.2",
           "GraphQL.Client.Serializer.Newtonsoft": "4.0.2",
           "GraphQL.NewtonsoftJson": "4.7.1",
@@ -18,6 +19,14 @@
         },
         "runtime": {
           "RickAndMorty.dll": {}
+        }
+      },
+      "Acr.UserDialogs/7.2.0.562": {
+        "runtime": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.0.0"
+          }
         }
       },
       "GraphQL/4.7.1": {
@@ -1013,6 +1022,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Acr.UserDialogs/7.2.0.562": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AOx6gb2pHSjn38Li/4EAZdQYgKTas9kYXoVJxZJONMbWlrDEUynk7TnqdxhN+yZVLAQpKMqEE5Jw4stZb5m/5w==",
+      "path": "acr.userdialogs/7.2.0.562",
+      "hashPath": "acr.userdialogs.7.2.0.562.nupkg.sha512"
     },
     "GraphQL/4.7.1": {
       "type": "package",

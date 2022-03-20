@@ -1,6 +1,4 @@
-﻿using System.Collections.ObjectModel;
-using System.Threading.Tasks;
-using RickAndMorty.Models;
+﻿using RickAndMorty.Models;
 using RickAndMorty.Queries;
 using Xamarin.Forms.Extended;
 
@@ -18,10 +16,11 @@ namespace RickAndMorty.ViewModels
 
         private bool isBusy;
         private int pageNumber = 1;
+        private CharactersQuery query;
 
         public DashboardPageViewModel()
         {
-            CharactersQuery query = new();
+            query = new CharactersQuery();
 
             CharactersList = new InfiniteScrollCollection<Character>
             {
@@ -38,20 +37,18 @@ namespace RickAndMorty.ViewModels
                     return characters;
                 }
             };
-
-            FillCharactersList();
         }
-
 
         public async void FillCharactersList()
         {
-            CharactersQuery query = new CharactersQuery();
-            
+            IsBusy = true;
+
             foreach (Character character in await query.GetAllCharacters(pageNumber))
             {
                 CharactersList.Add(character);
             }
-        }
 
+            IsBusy = false;
+        }
     }
 }

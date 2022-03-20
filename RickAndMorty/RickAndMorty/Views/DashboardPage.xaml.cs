@@ -15,6 +15,8 @@ namespace RickAndMorty.Views
 
             viewModel = new DashboardPageViewModel();
             BindingContext = viewModel;
+
+            viewModel.FillCharactersList();
         }
 
         private async void GoToLocationPage(object sender, EventArgs e)

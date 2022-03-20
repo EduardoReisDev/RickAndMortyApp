@@ -32,6 +32,7 @@
     <None Remove="Queries\" />
     <None Remove="GraphQL.NewtonsoftJson" />
     <None Remove="Xamarin.Forms.Extended.InfiniteScrolling" />
+    <None Remove="Acr.UserDialogs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Constants\" />

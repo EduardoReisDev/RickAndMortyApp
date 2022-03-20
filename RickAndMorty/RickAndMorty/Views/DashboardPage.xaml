@@ -12,7 +12,8 @@
                   BackgroundColor="#212529"
                   HasUnevenRows="true"
                   SeparatorVisibility="None"
-                  SelectionMode="Single">
+                  SelectionMode="Single"
+                  Grid.Row="1">
             <ListView.Header>
                 <StackLayout>
                     <Label Text="Welcolme a Rick and Morty app"
@@ -49,11 +50,11 @@
                 <DataTemplate>
                     <ViewCell>
                         <Frame Padding="0"
-                               HasShadow="True"
-                               CornerRadius="8"
-                               Margin="16,0,16,16"
-                               IsClippedToBounds="True"
-                               BackgroundColor="#495057">
+                                HasShadow="True"
+                                CornerRadius="8"
+                                Margin="16,0,16,16"
+                                IsClippedToBounds="True"
+                                BackgroundColor="#495057">
                             <Grid RowSpacing="0">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="140"/>
@@ -68,56 +69,56 @@
                                     <RowDefinition Height="Auto"/>
                                 </Grid.RowDefinitions>
                                 <Image Source="{Binding Image}"
-                                       Aspect="AspectFill"
-                                       Grid.RowSpan="6"
-                                       Grid.Column="0"/>
+                                        Aspect="AspectFill"
+                                        Grid.RowSpan="6"
+                                        Grid.Column="0"/>
                                 <Label Text="{Binding Name}"
-                                       TextColor="#DEE2E6"
-                                       FontAttributes="Bold"
-                                       Margin="0,8,0,0"
-                                       FontSize="20"
-                                       Grid.Row="0"
-                                       Grid.Column="1"/>
+                                        TextColor="#DEE2E6"
+                                        FontAttributes="Bold"
+                                        Margin="0,8,0,0"
+                                        FontSize="20"
+                                        Grid.Row="0"
+                                        Grid.Column="1"/>
                                 <StackLayout Orientation="Horizontal"
-                                             Grid.Row="1"
-                                             Grid.Column="1">
+                                                Grid.Row="1"
+                                                Grid.Column="1">
                                     <Image WidthRequest="10"
-                                           VerticalOptions="CenterAndExpand">
+                                            VerticalOptions="CenterAndExpand">
                                         <Image.Source>
                                             <FileImageSource File="{Binding StatusImage}"/>
                                         </Image.Source>
                                     </Image>
                                     <Label Text="{Binding Status}"
-                                           TextColor="#DEE2E6"
-                                           FontSize="16"/>
+                                            TextColor="#DEE2E6"
+                                            FontSize="16"/>
                                     <Label Text="-"
-                                           TextColor="#DEE2E6"
-                                           FontSize="16"/>
+                                            TextColor="#DEE2E6"
+                                            FontSize="16"/>
                                     <Label Text="{Binding Species}"
-                                           TextColor="#DEE2E6"
-                                           FontSize="16"/>
+                                            TextColor="#DEE2E6"
+                                            FontSize="16"/>
                                 </StackLayout>
                                 <Label Text="Last known location:"
-                                       TextColor="#6C757D"
-                                       FontSize="16"
-                                       Margin="0,10,0,0"
-                                       Grid.Row="2"
-                                       Grid.Column="1"/>
+                                        TextColor="#6C757D"
+                                        FontSize="16"
+                                        Margin="0,10,0,0"
+                                        Grid.Row="2"
+                                        Grid.Column="1"/>
                                 <Label Text="{Binding Location.Name}"
-                                       TextColor="#DEE2E6"
-                                       Grid.Row="3"
-                                       Grid.Column="1"/>
+                                        TextColor="#DEE2E6"
+                                        Grid.Row="3"
+                                        Grid.Column="1"/>
                                 <Label Text="First seen in:"
-                                       TextColor="#6C757D"
-                                       FontSize="16"
-                                       Margin="0,10,0,0"
-                                       Grid.Row="4"
-                                       Grid.Column="1"/>
+                                        TextColor="#6C757D"
+                                        FontSize="16"
+                                        Margin="0,10,0,0"
+                                        Grid.Row="4"
+                                        Grid.Column="1"/>
                                 <Label Text="{Binding Origin.Name}"
-                                       TextColor="#DEE2E6"
-                                       Margin="0,0,0,8"
-                                       Grid.Row="5"
-                                       Grid.Column="1"/>
+                                        TextColor="#DEE2E6"
+                                        Margin="0,0,0,8"
+                                        Grid.Row="5"
+                                        Grid.Column="1"/>
                             </Grid>
                         </Frame>
                     </ViewCell>

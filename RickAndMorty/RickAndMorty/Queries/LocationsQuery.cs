@@ -12,8 +12,10 @@ namespace RickAndMorty.Queries
     {
         private GraphQLHttpClient client;
 
-        public async Task<List<Location>> GetAllLocations(int pageNumber = 1)
+        public async Task<List<Location>> GetAllLocations(int pageNumber)
         {
+            await Task.Delay(1000);
+
             client = new GraphQLHttpClient(APIEndpoints.RickAndMortyURI, new NewtonsoftJsonSerializer());
 
             GraphQLRequest query = new()

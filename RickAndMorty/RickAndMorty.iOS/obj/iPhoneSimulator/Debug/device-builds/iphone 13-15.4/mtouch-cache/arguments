@@ -170,6 +170,8 @@
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
+	--reference=/Users/eduardoreis/.nuget/packages/acr.userdialogs/7.2.0.562/lib/xamarinios10/Acr.UserDialogs.dll \
+	--reference=/Users/eduardoreis/.nuget/packages/btprogresshud/1.3.5/lib/xamarinios10/BTProgressHUD.dll \
 	--reference=/Users/eduardoreis/.nuget/packages/graphql/4.7.1/lib/netstandard2.1/GraphQL.dll \
 	--reference=/Users/eduardoreis/.nuget/packages/graphql-parser/7.2.0/lib/netstandard2.1/GraphQL-Parser.dll \
 	--reference=/Users/eduardoreis/.nuget/packages/graphql.client/4.0.2/lib/netstandard2.0/GraphQL.Client.dll \

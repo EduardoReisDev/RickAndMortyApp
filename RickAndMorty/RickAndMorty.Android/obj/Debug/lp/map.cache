@@ -86,3 +86,12 @@ androidx.asynclayoutinflater.asynclayoutinflater.aar
 androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
+Acr.UserDialogs.dll
+AndHUD.dll
+Xamarin.AndroidX.ConstraintLayout.Core.dll
+Xamarin.AndroidX.ConstraintLayout.dll
+Xamarin.AndroidX.DynamicAnimation.dll
+Xamarin.AndroidX.Tracing.Tracing.dll
+androidx.tracing.tracing.aar
+androidx.dynamicanimation.dynamicanimation.aar
+androidx.constraintlayout.constraintlayout.aar
