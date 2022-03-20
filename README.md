@@ -8,13 +8,42 @@ Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) consumindo API GraphQL.
 
 - GraphQL.Client
 - GraphQL.Client.Serializer.Newtonsoft
+- Xamarin.Forms.Extended.InfiniteScrolling (pre-release)
 
 #### Framework
 - Xamarin.Forms
 - Xamarin.Essentials
 
-## API Utilizada
+## API
+#### Endpoint
 - https://rickandmortyapi.com/documentation/#introduction
+
+#### Queries
+```
+@"query GetAllLocations($number: Int)
+                {
+                    locations(page: $number)
+                    {
+                        results
+                        {
+                            id,
+                            name,
+                            type,
+                            dimension,
+                            residents
+                            {
+                                id,
+                                name,
+                                status,
+                                species,
+                                type,
+                                gender,
+                                image,
+                            }
+                         }
+                     }
+                }"
+```
 
 ## Medium
 Leia mais sobre a aplicação.
