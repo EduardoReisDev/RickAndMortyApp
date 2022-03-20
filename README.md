@@ -90,7 +90,7 @@ Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) consumindo API GraphQL.
 
 ## Medium
 Leia mais sobre a aplicação.
-- ...
+- https://eduardoreisdev.medium.com/consumindo-api-graphql-no-xamarin-forms-8e1a74167404
 
 ## Resultado
 https://user-images.githubusercontent.com/52722526/159149017-58b18674-7ade-41ec-84c8-47e07072ee47.mp4
