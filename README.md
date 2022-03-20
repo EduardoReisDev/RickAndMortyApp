@@ -21,28 +21,60 @@ Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) consumindo API GraphQL.
 #### Queries
 ```
 @"query GetAllLocations($number: Int)
-                {
-                    locations(page: $number)
-                    {
-                        results
-                        {
-                            id,
-                            name,
-                            type,
-                            dimension,
-                            residents
-                            {
-                                id,
-                                name,
-                                status,
-                                species,
-                                type,
-                                gender,
-                                image,
-                            }
-                         }
-                     }
-                }"
+{
+    locations(page: $number)
+    {
+        results
+        {
+            id,
+            name,
+            type,
+            dimension,
+            residents
+            {
+                id,
+                name,
+                status,
+                species,
+                type,
+                gender,
+                image,
+            }
+         }
+     }
+}"
+```
+
+```
+@"query
+  GetAllCharacters($number: Int)
+  {
+    characters(page: $number)
+      {
+          results
+          {
+            id,
+              name,
+              status,
+              species,
+              type,
+              gender,
+              image,
+              origin
+              {  
+                  id,
+                  name,
+                  type
+              }
+              location
+              {
+                  id,
+                  name,
+                  type,
+              }
+          }
+    }
+  }"
 ```
 
 ## Medium
