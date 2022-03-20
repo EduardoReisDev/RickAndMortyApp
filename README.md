@@ -1,6 +1,8 @@
 # RickAndMortyApp :ringed_planet:
 Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) consumindo API GraphQL.
 
+
+
 ![rick-and-morty-glootie-do-not-develop-my-app-512x512](https://user-images.githubusercontent.com/52722526/159149086-2056829d-dd14-4f32-8134-814016142fe2.png)
 
 ## Plugins e Framework
@@ -15,6 +17,10 @@ Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) consumindo API GraphQL.
 - Xamarin.Essentials
 
 ## API
+#### Console and documentation
+- https://rickandmortyapi.com/graphql
+- https://rickandmortyapi.com/documentation/#graphql
+
 #### Endpoint
 - https://rickandmortyapi.com/graphql
 
