@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:extended="clr-namespace:Xamarin.Forms.Extended;assembly=Xamarin.Forms.Extended.InfiniteScrolling"
              x:Class="RickAndMorty.Views.DashboardPage"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="#212529">
@@ -41,6 +42,9 @@
                     </Grid>
                 </StackLayout>
             </ListView.Header>
+            <ListView.Behaviors>
+                <extended:InfiniteScrollBehavior IsLoadingMore="{Binding IsBusy}" />
+            </ListView.Behaviors>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -119,6 +123,14 @@
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
+            <ListView.Footer>
+                <ActivityIndicator IsRunning="{Binding IsBusy}"
+                                   IsVisible="{Binding IsBusy}" 
+                                   Color="#E9ECEF"
+                                   VerticalOptions="Center" 
+                                   HorizontalOptions="Center"
+                                   Margin="0,0,0,120"/>
+            </ListView.Footer>
         </ListView>
     </ContentPage.Content>
 </ContentPage>

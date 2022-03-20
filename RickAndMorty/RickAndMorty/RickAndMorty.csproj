@@ -20,6 +20,7 @@
     <PackageReference Include="GraphQL.NewtonsoftJson" Version="4.7.1" />
     <PackageReference Include="GraphQL.Client" Version="4.0.2" />
     <PackageReference Include="GraphQL.Client.Serializer.Newtonsoft" Version="4.0.2" />
+    <PackageReference Include="Xamarin.Forms.Extended.InfiniteScrolling" Version="1.0.0-preview2" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="GraphQL.Client" />
@@ -30,6 +31,7 @@
     <None Remove="Views\" />
     <None Remove="Queries\" />
     <None Remove="GraphQL.NewtonsoftJson" />
+    <None Remove="Xamarin.Forms.Extended.InfiniteScrolling" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Constants\" />
