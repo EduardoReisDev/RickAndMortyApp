@@ -1,5 +1,3 @@
-# EM DESENVOLVIMENTO
-
 # RickAndMortyApp :ringed_planet:
 Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) consumindo API GraphQL.
 
