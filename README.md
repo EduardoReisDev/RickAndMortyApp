@@ -2,11 +2,17 @@
 Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) consumindo API GraphQL.
 
 :books: https://code-maze.com/consume-graphql-api-with-asp-net-core/
+
 :books: https://www.graphql-code-generator.com/
+
 :books: https://graphql.org/learn/queries/#variables
+
 :books: https://graphql-dotnet.github.io/docs/getting-started/variables/
+
 :books: https://github.com/graphql-dotnet/graphql-clienthttps://julianocustodio.com.br/2018/09/14/listview-infinite-scroll/
+
 :books: https://julianocustodio.com.br/2018/09/14/listview-infinite-scroll/
+
 
 ![rick-and-morty-glootie-do-not-develop-my-app-512x512](https://user-images.githubusercontent.com/52722526/159149086-2056829d-dd14-4f32-8134-814016142fe2.png)
 
