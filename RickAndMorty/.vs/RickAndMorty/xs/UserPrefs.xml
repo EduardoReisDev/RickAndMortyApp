@@ -1,40 +1,40 @@
 ﻿<Properties StartupConfiguration="{D1C5D3D3-7DD0-4C39-9137-4686D0110B44}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.RickAndMorty.Android PreferredExecutionTarget="Android.Pixel_2_API_32" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RickAndMorty/ViewModels/DashboardPageViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RickAndMorty/Views/DashboardPage.xaml">
     <Files>
-      <File FileName="RickAndMorty/Views/DashboardPage.xaml" Line="133" Column="32" />
-      <File FileName="RickAndMorty/Views/DashboardPage.xaml.cs" Line="18" Column="1" />
-      <File FileName="RickAndMorty/ViewModels/DashboardPageViewModel.cs" Line="20" Column="1" />
-      <File FileName="RickAndMorty/Queries/CharactersQuery.cs" Line="17" Column="13" />
-      <File FileName="RickAndMorty/ViewModels/LocationPageViewModel.cs" Line="1" Column="1" />
-      <File FileName="RickAndMorty/Views/LocationPage.xaml" Line="95" Column="61" NotebookId="1" />
-      <File FileName="RickAndMorty/Views/LocationPage.xaml.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="RickAndMorty/Queries/LocationsQuery.cs" Line="21" Column="41" NotebookId="1" />
+      <File FileName="RickAndMorty/Views/DashboardPage.xaml" Line="1" Column="1" />
+      <File FileName="RickAndMorty/Views/DashboardPage.xaml.cs" />
+      <File FileName="RickAndMorty/ViewModels/DashboardPageViewModel.cs" />
+      <File FileName="RickAndMorty/Queries/CharactersQuery.cs" />
+      <File FileName="RickAndMorty/ViewModels/LocationPageViewModel.cs" />
+      <File FileName="RickAndMorty/Views/LocationPage.xaml" Line="1" Column="1" NotebookId="1" />
+      <File FileName="RickAndMorty/Views/LocationPage.xaml.cs" NotebookId="1" />
+      <File FileName="RickAndMorty/Queries/LocationsQuery.cs" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RickAndMorty" expanded="True">
             <Node name="RickAndMorty" expanded="True">
-              <Node name="Dependencies" expanded="True" />
               <Node name="Constants" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Queries" expanded="True" />
-              <Node name="ViewModels" expanded="True">
-                <Node name="DashboardPageViewModel.cs" selected="True" />
-              </Node>
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="DashboardPage.xaml" expanded="True" />
+                <Node name="DashboardPage.xaml" expanded="True" selected="True" />
                 <Node name="LocationPage.xaml" expanded="True" />
               </Node>
             </Node>
             <Node name="RickAndMorty.Android" expanded="True" />
+            <Node name="RickAndMorty.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.RickAndMorty.iOS Xamarin.HotReload.DebuggerTimeoutException.RickAndMorty.iOS.HideInfoBar="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0BE45C74-27BB-430F-BDBD-2FF4E9DF5436" />
+  <MonoDevelop.Ide.ItemProperties.RickAndMorty.iOS Xamarin.HotReload.DebuggerTimeoutException.RickAndMorty.iOS.HideInfoBar="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.728153D9-9227-4327-8227-0CF1CFB67394" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
