@@ -1,12 +1,9 @@
 # RickAndMortyApp :ringed_planet:
 Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) consumindo API GraphQL.
 #### Support sites
-- https://code-maze.com/consume-graphql-api-with-asp-net-core/
 - https://www.graphql-code-generator.com/
 - https://graphql.org/learn/queries/#variables
-- https://graphql-dotnet.github.io/docs/getting-started/variables/
-- https://github.com/graphql-dotnet/graphql-clienthttps://julianocustodio.com.br/2018/09/14/listview-infinite-scroll/
-- https://julianocustodio.com.br/2018/09/14/listview-infinite-scroll/
+- https://github.com/graphql-dotnet/graphql-client
 
 ![rick-and-morty-glootie-do-not-develop-my-app-512x512](https://user-images.githubusercontent.com/52722526/159149086-2056829d-dd14-4f32-8134-814016142fe2.png)
 
